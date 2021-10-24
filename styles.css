@@ -1,0 +1,158 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.h2_weight {
+  font-weight: bold;
+  color: #715a91;
+}
+.margin_h1 {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+/* .top_picture {
+  margin-top: 80px;
+} */
+
+.text_size {
+  font-size: 18px;
+}
+
+.text_size_t {
+  font-size: 38px;
+  padding-bottom: 40px;
+}
+
+.button_style {
+  display: inline-block;
+  padding: 0.2em 0.8em;
+  border: 0.4em solid #baa0de;
+  margin: 4em 0.3em 0.2em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+}
+/* .maintxt {
+  background-image: url(images/livingroom.png);
+  background-size: cover;
+} */
+
+.nav_background {
+  background-color: #fff;
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.25);
+}
+
+.box_shadow {
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.25);
+}
+
+.texture_lines {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(228, 209, 255, 0.06),
+    rgba(228, 209, 255, 0.06) 10px,
+    #fff 10px,
+    #fff 20px
+  );
+}
+.masthead {
+  height: 100vh;
+  max-width: 100%;
+  margin-right: 0px;
+  padding-right: 0px;
+  min-height: 1000px;
+  background-image: url(images/otherroomafter.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sky_img {
+  background-image: url(images/poster-with-vertical-frames-empty-white-wall-living-room-interior-with-blue-velvet-armchair-3d-rendering.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.fix_space {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.img_size {
+  min-width: 400px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .img_size {
+    min-width: 250px;
+  }
+  .h1_media {
+    font-size: 50px;
+  }
+  .margin_h1 {
+    margin-left: 200px;
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .img_size {
+    min-width: 200px;
+  }
+  .h1_media {
+    font-size: 40px;
+  }
+  .margin_h1 {
+    margin-left: 100px;
+    margin-top: 200px;
+  }
+}
+.arrow_colour {
+  background-color: black;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .img_size {
+    min-width: 120px;
+  }
+  .h1_media {
+    font-size: 40px;
+  }
+  .margin_h1 {
+    margin-left: 70px;
+    margin-top: 200px;
+  }
+}
+
+.card_margin {
+  margin: 0px 20px;
+}
+
+.spacing {
+  margin-top: 200px;
+}
+
+.test_back {
+  background-color: #baa0de;
+}
+
+.spacing_bot {
+  margin-bottom: 200px;
+}
+
+.footer_style {
+  min-height: 100px;
+}
