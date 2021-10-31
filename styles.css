@@ -66,6 +66,11 @@ body {
     #fff 20px
   );
 }
+
+h2 img,
+footer img {
+  max-width: 50px;
+}
 .masthead {
   height: 100vh;
   max-width: 100%;
@@ -77,7 +82,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.masthead_product {
+  background-image: url(images/Products/bigone.jpg);
+}
 .sky_img {
   background-image: url(images/poster-with-vertical-frames-empty-white-wall-living-room-interior-with-blue-velvet-armchair-3d-rendering.jpg);
   background-size: cover;
